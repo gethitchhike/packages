@@ -1,0 +1,19 @@
+{
+    "name": "gethitchhike/packages",
+    "license":"GPL-2.0+",
+    "description":"Package browse infrastructure",
+    "repositories": [
+        {           
+            "url": "https://github.com/squarerootfury/ButterPHP.git",
+            "type": "git"           
+        },
+        {           
+            "url": "https://github.com/gethitchhike/units.git",
+            "type": "git"           
+        }
+    ],
+    "require": {
+        "squarerootfury/butterphp":"dev-dev",
+        "gethitchhike/units":"master"
+    }
+}
